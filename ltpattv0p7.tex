@@ -1,0 +1,375 @@
+%%LTPROPv0.7     DO NOT REMOVE/EDIT THIS LINE!                
+%%
+%%      This is v0.7 from 1st June 2017 (RJS)  
+%%      This for is an adaptation of previous LT PATT forms, which ultimately 
+%%      trace back to a JCMT version by gms@jach.hawaii.edu 
+%%
+%%      The current style file (ltpattv0p7) must be installed for 
+%%      this template to work.   
+%%
+%%      Proposals submitted based on older versions of this template or
+%%      the older style file will be rejected by the proposal submission
+%%      system.  To check you have the latest version, see
+%%
+%%      http://telescope.livjm.ac.uk/
+%%
+%%      The above web site also has useful details to help you prepare
+%%      your proposal
+%%
+%%       For help and support please email ltphase1@ljmu.ac.uk
+%%
+%% To use this file simply fill in the gaps between the curly brackets
+%% with the appropriate info.  DO NOT fiddle with anything else as this
+%% will lead to the automated submission system rejecting your proposal.
+%% Similarly DO NOT attempt to edit the style file.
+%%
+%% If you prefer to use psfig rather than epsf to embed your figures 
+%% comment out the first \usepackage and uncomment the second one.
+%% 
+
+\documentclass[11pt]{article}
+\usepackage{ltpattv0p7}
+%\usepackage{psfig}
+%\usepackage{epsf}
+%\usepackage{amssymb}
+
+\begin{document}
+
+\tag{PATT} % PATT or JMU
+
+\semester{19B} % semester of proposal (e.g. 01A, 01B, 02A etc.)
+\duration{}   % how many semesters does this proposal cover?
+
+\progid{} % If the proposal is part of an ongoing LT programme, enter the
+               % PROGID here.  
+
+\PIname  {Christopher Frohmaier}        % PI's name
+\PIinstitution {ICG - Portsmouth}  % institution, and country
+\PIEMAIL {chris.frohmaier@port.ac.uk}        % IF YOUR EMAIL ADDRESS INCLUDES
+                   % UNDERSCORE CHARACTERS, YOU MUST
+                   % PRECEDE THEM BY A BACKSLASH
+                   % E.G. fred\_bloggs@univ.ac.uk
+                                  
+ 
+% you can have up to 5 Co-I's - they don't need EMAIL's, but if they
+% don't have them they will not be able to participate in phase 2 data
+% entry or download data from JMU.
+
+\CIAname  {Gutierrez, C. P.}  
+\CIAinstitution {Uni. of Southampton}
+\CIAEMAIL {c.p.gutierrez-Avendano@soton.ac.uk}
+
+\CIBname  {Cosimo Inserra}  
+\CIBinstitution {Cardiff University}
+\CIBEMAIL {InserraC@cardiff.ac.uk}
+
+\CICname  {Charlotte Angus}  
+\CICinstitution {Uni. of Southampton}
+\CICEMAIL {c.r.angus@soton.ac.uk}
+
+\CIDname  {Mat Smith}  
+\CIDinstitution {Uni. of Southampton}
+\CIDEMAIL {mat.smith@soton.ac.uk}
+
+\CIEname  {Mark Sullivan}  
+\CIEinstitution {Uni. of Southampton}
+\CIEEMAIL {m.sullivan@soton.ac.uk}
+
+\CIEname  {}  
+\CIEinstitution {}
+\CIEEMAIL {}
+
+% Please type Y in the element below if this application is for data to be used in a PhD thesis.
+% Also enter the name and institute for the PhD candidate
+
+\phdthesis{}
+\phdname{}
+
+% The proposal title should fit on one line of the final form.
+
+\title{Characterising the physical properties of remote optical transients}
+
+% Enter the abstract below.  Do not change the font size.
+
+\abstract{High-cadence, wide-field surveys are finding new populations of transients that are faster, fainter, and rarer than normal supernovae. These transients challenge our conventional understanding of supernova progenitor systems. A recently characterised class of rapidly evolving thermonuclear explosion are ``Ca-rich'' gap transients. Though limited in size, examples of this class are almost exclusively found at very large projected distances from host galaxies. The Zwicky Transient Facility (ZTF) is a cornucopia of supernova discoveries that we are currently mining for faint-fast-and-remote transients. Using LT, we will obtain early classifications and perform regular follow-up observations to explain the physical nature and origin of these exotic events. This data will be used to construct spectro-photometric templates to train machine-learning classifiers for the next big revolution in transient astronomy - LSST.}
+%{Extreme transients defying the normal paradigm of supernova explosions have been found, but the majority of them have non-prompt discoveries and lack of a detailed follow-up, severely diminishing the scientific return. LSST will make it more challenging boosting the number of yearly discoveries by a factor of 100, making it almost impossible to find such extreme transients using current methodology. We aim to run the ‘Fast and Dark side of Transient Experiment’ for a total 5 years, making it a cornerstone of the LT. The immediate objective is to improve our understanding of three types of transients which, until now, lack early multi-band photometry. These classes are 1- rapidly evolving, 2 - in low-luminosity hosts and 3 - in remote locations. Our legacy value for the long-term goal is to provide well-sampled multi-colour light-curve of such transients to train machine learning classifier in preparation for the LSST era.}
+
+%Enter the amount of time you are requesting THIS SEMESTER.
+%The unit of time is HOURS.
+
+\thissemestertime{}
+
+% If you are applying for a programme length of > 1 semester then
+% enter the amount of time you are requesting IN TOTAL.
+% The unit of time is HOURS.
+
+\totaltime{}
+
+% Enter the required seeing value in arcseconds.
+
+\seeing{2.0}
+
+% Enter the required sky brightness in units of magnitudes per
+% square arcsecond above DARK.  See the telescope website
+% for details.
+
+\sky{6mag}
+
+% Enter Y below if photometric conditions required, N otherwise
+
+\photometric{N}
+
+% Enter Y in the months in which you would ideally like your observations
+% to take place.  you will get an opportunity to put more detailed
+% constraints on your actual observations at phase 2 - this is just to 
+% allow a balanced (in terms of season) set of allocations to be made 
+% by the TAG.
+
+\jan{Y}
+\feb{Y}
+\mar{Y}
+\apr{Y}
+\may{Y}
+\jun{Y}
+\jul{Y}
+\aug{Y}
+\sep{Y}
+\oct{Y}
+\nov{Y}
+\dec{Y}
+
+
+%If observation is a Target of Opportunity (i.e. you will be responsible for
+%entering the phase 2 information when an event occurs, rather than at the
+%start of the semester) please enter Y here.  Otherwise enter N
+
+\too{Y}
+
+%If observation is a Target of Opportunity enter an per-cent estimate of the
+%likelihood of the trigger occurring during a single semester.
+
+\likelihood{100}  %DO NOT USE A % SIGN IN FILLING THIS IN!  JUST GIVE THE FIGURE.
+
+%Enter details of timing constraints for groups. Options are any
+%combination of FLEXIBLE, FIXED, MONITOR, INTERVAL, PHASED
+
+\constraints{FLEXIBLE}
+
+%If you have a timing constraint that implies repeated observations (not simply
+%multiple exposures in a single observation), please indicate the mean time
+%between observations below in DAYS
+
+\cadence{}
+
+%Indicate the minimum useable fraction (as a per-centage) of observations 
+%necessary to obtain your science objectives (remember that for
+%example a monitoring campaign is likely to be affected
+%by bad weather, so it is very unlikely to achieve 100%).
+
+\muf{} %DO NOT USE A % SIGN IN FILLING THIS IN!  JUST GIVE THE FIGURE.
+
+% To use the IO:O CCD Camera, enter Y in the box below.
+\instioo{Y}
+% If using IO:O, please enter details of your filters below.
+\instioodetails{griz}
+
+%to use the the IO:I near-IR camera, enter Y in the \instioi{} box
+%below. 
+\instioi{}
+% If using IO:I, please enter details of your filters below.
+\instioidetails{}
+
+%to use the RINGO3 polarimeter, enter Y in the \instringo box below.
+\instringo{}
+
+%to use the RISE fast-photometer, enter Y in the \instrise box below.
+\instrise{}
+
+%to use the SPRAT long-slit spectrometer, enter Y in the \instsprat{} box
+%below.  
+\instsprat{Y}
+
+%to use the FRODOSPEC spectrographs (depending on
+%enter Y in the relevant box below.
+\instfrodo{}
+%Enter details of FRODOSPEC gratings below
+\instfrododetails{}
+
+%to use another instrument, enter its name in the \instother box below.
+%you MUST consult with JMU at least two weeks in advance of submission
+%to do this.  JMU reserve the right not to host any particular
+%instrument.
+\instother{}
+
+% Enter a summary of progress on previous LT proposals that are
+% in some way related to this proposal. 
+%
+% Use the table format provided to report past allocations in hours, 
+% the A,B,C grade allocated by the TAG and how much of the allocation was
+% used. Use the ?Comments? column for any extra information that may be 
+% pertinent.
+%
+% There is also space after the table for any text commentary you
+% wish to include.
+\previouswork{
+
+\hfil\break
+\begin{tabular*}{0.9\textwidth}{lrrrp{0.53\textwidth}}
+\hline
+{\bf PROPID} & {\bf Alloc.} & {\bf Rank} & {\bf Used} & {\bf Comments}\\
+\hline
+%Five columns: PROPID, hours allocated, rank, hours used, free-form comments
+PL00A00 & 1 & A & 1 & {\em Delete this table line and add your own data}\\
+PL00B00 & 1 & B & 1 & {\em Delete this table line and add your own data}\\
+%Some examples for guidance
+%PL10A35 & 5 & B & 1.5 & Low usage resulted from lack of suitable triggers and then
+%an extended period of bad weather that clashed with the one good ToO trigger we got.\\
+%PL10B34 & 4 & B & 4 & Successful. See publication list\\
+\hline
+\end{tabular*}
+
+{\em Delete this sentence and enter any further information you wish, beyond the table.}
+
+}
+
+%Enter a list of all publications either published or in press
+%(but not "in preparation") which are wholly or partly based on
+%LT data for the past 2 years.  This should include publications
+%both related and unrelated to this proposal.
+
+\publications{
+
+}
+
+% Enter details of related/complimentary proposals below on
+% both PATT and NON-PATT facilities, mentioning
+% any resulting scheduling constraints that we should be aware of.
+
+\otherfacilities{}
+
+% Enter details of your targets below, or for large samples, details of the
+% selection and total number.  Coordinates etc. need not be exact
+% at this stage as you will do all this in more detail at phase 2 -
+% this is just to allow the TAG to judge your science case.
+
+\targetlist{
+
+% {\em Delete these italicised instructions and enter your targets below.
+% For large samples, give details of the target selection and total number.
+% Coordinates etc. need not be exact at this stage as you will do all this 
+% in more detail at Phase 2. This is just to allow the TAG to judge your science case.}
+
+Target A; RA 00:00:00.0; DEC 00:00:00.0; ToO required\\
+Target B; RA 00:00:00.0; DEC 00:00:00.0; ToO required.
+}
+
+% Enter your science case between the curly brackets below.  Do NOT
+% fiddle with the font size - your application will be automatically
+% rejected if you do so.
+
+\sciencecase{
+
+% {\em Delete all these italicised instructions and enter your scientific case here.
+
+% Do not exceed one page.
+ 
+% Requests for a time allocation over multiple semesters should be specifically justified here. 
+
+% If the time request is for a target-of-opportunity, the likelihood or rate of the event(s) should also be discussed. }
+
+% }
+Over the past decade the advance of automated telescopes operating wide-field and high-cadence sky surveys has revolutionised the search for astrophysical transients. Not only have the sample sizes of the established supernova (SN) classes grown dramatically; such as type Ia supernovae (SNe Ia) and core-collapse SNe (CCSNe), but new subclasses have also been discovered (e.g. superluminous SNe, SNe Iax and rapidly evolving transients). Despite this, there are still regions of the time domain phase-space that are sparsely populated by well-understood transients, indicating that our knowledge of the transient Universe is far from complete.
+
+A so-called \lq luminosity gap\rq~ is observed between classical novae and SNe that is slowly being filled by transients with peculiar characteristics. Of particular interest are Calcium-rich (Ca-rich) transients, whose rapid photometric and spectroscopic evolution sets them aside from more typical SNe. Though at early times appearing spectroscopically similar to SN-Ib (i.e. strong helium features and a lack of hydrogen; Filippenko et al. 2003; Perets et al. 2010), their nebular spectra exhibit high Calcium-to-Oxygen ratios (Perets et al. 2010). Kasliwal et al. (2012) define five distinguishing characteristics for these events: (i) intermediate peak luminosity between novae and SNe; (ii) fast photometric evolution; (iii) comparable photospheric velocities to normal SNe; (iv) rapid evolution to the nebular phase; (v) nebular spectra dominated by Calcium emission. While many of these features require spectral timeseries data, there is one conspicuous property immediately accesible from survey data: Ca-rich transients are predominately found at extreme distances from the assumed host (typically E/S0 galaxies).
+
+This early-type galaxy and remote environment preference has strong implications for any progenitor systems, and strongly disfavours more massive stellar origins. While the location of Ca-rich transients are consistent with globular cluster distributions (Yuan et al. 2013), photometric searches for globular clusters at the positions of known Ca-rich transients have, on the whole, been unsuccessful (Lyman et al. 2014; Foley 2015; Lyman et al. 2016; Lunnan et al. 2017). Consequently it has been suggested that these events are either strongly kicked or evolve in extreme isolation. This indicates a binary system progenitor of which there are several competing models lacking conclusive observational evidence. These models include non-destructive Helium-shell surface detonations of low-mass Carbon-Oxgyen white dwarfs (CO WDs; Waldman et al. 2011), tidally disrupted CO WDs (Rosswog et al. 2009; Metzger 2012; Sell et al. 2015), and compact-binary collisions between a WD and Helium donor companion (Gar\'{c}ia-Berro et al. 2017).
+
+The observed fraction of Ca-rich SNe in early-type galaxies is significantly higher than that observed for SNe Ia, where the fraction of late-type galaxies is ${>}$50\% (Lunnan et al. 2017).  This suggess a rate dependent on stellar mass, indicating a explosion scenario driven by progenitor age (Sullivan et al. 2006; Fong et al. 2013). However, sample sizes are still relatively small (with a current population of 8 confirmed events), with small-number statistics dominating any drawn conclusions. Frohmaier et al. (2018) estimated the rate of these faint-and-fast events from the Palomar Transient Factory based on a sample size of 3 discoveries. They found that the rate of Ca-rich transients is some 33--94\% of the SNe Ia rate and leads to the prediction that ZTF should find at least 20 objects each year (Graham et al. 2019). It is, therefore, imperative that Ca-rich follow-up programs are established to exploit this resource if we are to build a better understanding of this new and exciting subclass.
+
+Remote SNe are efficient polluters of the intra-cluster medium (ICM) as their ejecta do not have to escape a host galaxy's gravitational potential. If elemental yields from normal classes of SN Ia and CCSNe are compared to observations, the ICM shows a Ca/Fe overabundance (e.g., de Plaa et al. 2007). Considering the propensity for these remote transients to show unusual properties it is important to understand their contribution to the chemical abundances of the ICM. Indeed, it has been shown that a non-negligible contribution from Ca-rich SNe can potentially explain the Ca/Fe over-abundance (Mulchaey et al. 2014; Mernier et al. 2016b, Frohmaier 2018). A better understanding of the Ca-rich subclass is pivotal to understanding their influence on the chemical enrichment of the ICM.
+
+We propose to use LT to perform both classifcation and followup observations of transient events discovered in remote environments by ZTF. This will not only increase the current sample size of well-observed Ca-rich SNe, but will also identify unusual events that do not fit into the traditional SN paradigms at early phases. Confirmed Ca-rich events will then be targeted for additional spectroscopic followup, which when combined with our existing ongoing photometric followup programs using ePESSTO+ and LCO, will provide improved evolutionary spectro-photometric templates for these objects. This data set will be ideal for understanding the physical processes involved in the explosion, and will form the basis of templates which can be used to identify this new class of event in upcoming projects such as LSST.  
+}
+%enter the technical case below, including details of 
+%signal to noise requiered and expected and why you have
+%applied for the lunar and atmospheric condtions chosen.  Note that SNR
+%calculators are available on the web page (http://telescope.livjm.ac.uk/)
+
+\technicalcase{
+
+% {\em Delete all these italicised instructions and enter your technical case here.
+
+% Do not exceed one page.
+ 
+% Those requiring FIXED timing constraints for their
+% observations must justify this here. See the LT Phase 1 webpage
+% for further details.
+
+% Users who require more than a one-year post
+% end-of-semester proprietary period on their data must likewise
+% justify this here. The LT's policy on data access and proprietary
+% periods is posted on the LT Data Products webpage.  }
+\textbf{Number of expected transients:} We have developed a remote transient discovery pipeline using the Lasair (Smith et al. 2019) broker service. Lasair ingests the nightly stream of ZTF candidate detections and combines this with value-added cross-matches against external catalogues. Our pipeline routinely searches for events that are more than 20kpc from the nearest catalogued host galaxy, or for rising light curves considered by Lasair as `orphans' (no parent galaxy found). To estimate the size of our target list we retrospectively applied our pipeline to ${\sim}$7 months of ZTF data and found 23 convincing objects. Of these, 11 had spectroscopic classifications: 6$\times$SN Ia, 3$\times$SN II, and 2$\times$SN Ia-91bg. The remaining 12 candidates received no public classification and, surprisingly, this includes 5 with obvious SN-like light curves that were not reported to the Transient Name Server.
+
+Assuming a comparable detection rate in 2019B, we expect to find $\mathbf{39\pm6}$ \textbf{transients per year}. We propose to spectroscopically classify each new event discovered in a remote location by ZTF and perform followup observations of the unusual subset. We can estimate the number of events requiring followup observations by analysing the complete light curves of our unclassified objects. We approximated the rise-times for each object and, where available, used the redshift of the galaxy host to calculate a luminosity. Faint-and-fast behaviour, quintessential of Ca-rich transients, was observed in 5 objects. We, therefore, predict that $\mathbf{9\pm3}$ \textbf{transients per year} would require regular IO:O multi-band photometry and SPRAT spectra.
+
+During 2019A our remote transient detection pipeline was developed and deployed under our FDST collaboration LT programme PL19A13. We successfully classified 4 remote transients (2$\times$SN Ia, 1$\times$SN II, and 1$\times$SN Ia-91bg). We requested observations for a further 4 remote objects but classification data was not taken. These objects were abandoned after their light curves began to decline. We believe our grade B status affected the status of the 
+
+\textbf{Followup Strategy:} Given the rapid evolution of these targets, after classification we propose to obtain 3 additional spectra of each unusual event, with an average of 5 days between each observation depending on light curve evolution. We note that, for our program, abnormalities observed in the classification spectrum will be the primary motivation for future follow-up studies. We will also trigger to obtain multi-band photometry with a 1-5 day cadence depending on the timescale of the light curve evolution. 
+
+
+
+\textbf{Exposure time:} For LT+IO and ugriz filters, using the ETC and our experience, for a S/N∼50 (dependent
+on phase) and 1.5 - 2” seeing, we estimate an average exposure time of 5 minutes per epoch in ugriz per object
+(excluding overheads). However, u observations will be obtained only up to 10 days after peak epoch to constrain
+the temperature and to have homogenous templates for the rise. Considering 12 epochs per each of the rapid
+transients and the remote locations, 20 for the low-luminosity hosts, wand an additional 20% of the subtotal
+(32.25) of false positives makes 38.7hrs. For LT+SPRAT we require a S/N∼25 for our first spectrum of each
+transient per resolution element ∼ 18 ̊A, while a S/N∼40 for the others. Our targets will be in the range of 17-20
+mag. The classification brightnesses will be on the fainter side (19-20 mag) since the transients will be on the
+rise to maximum, while the brightnesses at the time of follow-up will be broadly 17-19 mag. We will use the red
+SPRAT grism for the first spectrum, while follow-up spectra will be obtained with the blue or red grism, depending
+on target properties. Using the SPRAT ETC for a median brightness target of 19.5 mag in 1.5-2” seeing, S/N∼20
+can be achieved in an exposure time of 800-900s (for dark+4mag conditions). With overheads of 4.5 mins per
+spectrum this gives a total time of 1100-1200s. For S/N∼40 in dark+2mag conditions, we require an exposure
+time of 800-900s for 1.5 - 2” seeing (including overheads of 4.5 mins per spectrum) for a median brightness of 18.5
+mag. For 29 first spectra and 84 follow-up spectra this means 29.1 hrs. The grand total is 67.9 hrs for 1 year.
+}
+
+%enter any tabular data, references, and include any postscript
+%figures using psfig or epsf on the page below.
+
+\figsandtabs{
+
+{\em Delete this sentence and enter figures and tables here: 
+do not exceed one page.}
+
+% to include an EPS figure use something like the line below...
+% (make sure the bounding box is sensible!)
+%   \psfig{figure=figname.ps,height=8cm} 
+
+}
+
+
+%	END OF INPUT  --  DON'T FIDDLE WITH ANYTHING BELOW THIS POINT
+%_____________________________________________________________________________
+%
+%	
+%	The following actually produces the pages.
+%
+ 
+ \frontpage  
+ \pagebreak
+ \frontpagepart2  
+ \pagebreak
+ \secondpage 
+ \pagebreak
+ \thirdpage  
+ \pagebreak
+ \fourthpage 
+ \pagebreak
+ \fifthpage  
+ \pagebreak
+
+\end{document}
+
